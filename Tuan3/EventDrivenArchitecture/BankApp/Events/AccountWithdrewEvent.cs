@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace BankApp.Events
+{
+    public record AccountWithdrewEvent(string id, double amount): IEvent;
+
+}
